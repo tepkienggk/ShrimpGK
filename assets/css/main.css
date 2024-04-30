@@ -2344,3 +2344,12 @@ input[type=number] {
     max-width: 100%;
     height: auto;
 }
+.modal-container.mdl-cnt {
+    /* Thêm các thuộc tính CSS bạn muốn thiết lập ở đây */
+    /* Ví dụ: */
+    width: 1050px;
+    height: 700px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
