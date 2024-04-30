@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tép Kiểng GK</title>
+    <link href='./assets/img/logotrenweb.jpg' rel='icon' type='image/x-icon' />
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/home-responsive.css">
+    <link rel="stylesheet" href="./assets/css/toast-message.css">
+    <link rel="stylesheet" href="./assets/font/font-awesome-pro-v6-6.2.0/css/all.min.css"/>
+    <link href="/assets/img/products/bannerchinh.jpg"/>
+    <link rel="stylesheet" href="./assets/css/gioithieu.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-left">
+                    <ul class="header-top-list">
+                        <li><a href=""><i class="fa-regular fa-phone"></i> 0123 456 789 (miễn phí)</a></li>
+                        <li><a href=""><i class="fa-light fa-location-dot"></i> Xem vị trí cửa hàng</a></li>
+                    </ul>
+                </div>
+                <div class="header-top-right">
+                    <ul class="header-top-list">
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Cửa hàng</a></li>
+                        <li><a href="">Chính sách</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-middle">
+            
+            <div class="container">
+               
+                <div class="header-middle-left">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="./assets/img/logodacat.jpg" alt="" class="header-logo-img" width="40" height="20">
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="header-middle-center">
+                    <form action="" class="form-search">
+                        <span class="search-btn"><i class="fa-light fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-search-input" placeholder="Tìm kiếm món ăn..."
+                            oninput="searchProducts()">
+                        <button class="filter-btn"><i class="fa-light fa-filter-list"></i><span>Lọc</span></button>
+                    </form>
+                </div> -->
+                <div class="header-middle-right">
+                    <ul class="header-middle-right-list">
+                        <li class="header-middle-right-item dnone open" onclick="openSearchMb()">
+                            <div class="cart-icon-menu">
+                                <i class="fa-light fa-magnifying-glass"></i>
+                            </div>
+                        </li>
+                        <li class="header-middle-right-item close" onclick="closeSearchMb()">
+                            <div class="cart-icon-menu">
+                                <i class="fa-light fa-circle-xmark"></i>
+                            </div>
+                        </li>
+                        <li class="header-middle-right-item dropdown open">
+                            <i class="fa-light fa-user"></i>
+                            <div class="auth-container">
+                                <span class="text-dndk">Đăng nhập / Đăng ký</span>
+                                <span class="text-tk">Tài khoản <i class="fa-sharp fa-solid fa-caret-down"></i></span>
+                            </div>
+                            <ul class="header-middle-right-menu">
+                                <li><a id="login" href="javascript:;"><i class="fa-light fa-right-to-bracket"></i> Đăng nhập</a></li>
+                                <li><a id="signup" href="javascript:;"><i class="fa-light fa-user-plus"></i> Đăng ký</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-middle-right-item open" onclick="openCart()">
+                            <div class="cart-icon-menu">
+                                <i class="fa-light fa-basket-shopping"></i>
+                                <span class="count-product-cart">0</span>
+                            </div>
+                            <span>Giỏ hàng</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="header-bottom">
+        <div class="container">
+            <ul class="menu-list">
+                <li class="menu-list-item"><a href="index.html" class="menu-link">Trang chủ</a></li>
+                <!-- <li class="menu-list-item" onclick="showCategory('Món chay')"><a href="javascript:;" class="menu-link">Món chay</a></li>
+                <li class="menu-list-item" onclick="showCategory('Món mặn')"><a href="javascript:;" class="menu-link">Món mặn</a></li>
+                <li class="menu-list-item" onclick="showCategory('Món lẩu')"><a href="javascript:;" class="menu-link">Món lẩu</a></li>
+                <li class="menu-list-item" onclick="showCategory('Món ăn vặt')"><a href="javascript:;" class="menu-link">Món ăn vặt</a></li>
+                <li class="menu-list-item" onclick="showCategory('Món tráng miệng')"><a href="javascript:;" class="menu-link">Món tráng miệng</a></li>
+                <li class="menu-list-item" onclick="showCategory('Nước uống')"><a href="javascript:;" class="menu-link">Nước uống</a></li>
+                <li class="menu-list-item" onclick="showCategory('Món khác')"><a href="javascript:;" class="menu-link">Món khác</a></li> -->
+                <li class="menu-list-item" onclick="showCategory('Món khác')"><a href="gioithieu.html" class="menu-link">Giới Thiệu</a></li>
+                <li class="menu-list-item" onclick="showCategory('Món khác')"><a href="chinhsach.html" class="menu-link">Chính Sách</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="advanced-search">
+        <div class="container">
+            <div class="advanced-search-category">
+                <span>Phân loại </span>
+                <select name="" id="advanced-search-category-select" onchange="searchProducts()">
+                    <option>Tất cả</option>
+                    <option>Món chay</option>
+                    <option>Món mặn</option>
+                    <option>Món lẩu</option>
+                    <option>Món ăn vặt</option>
+                    <option>Món tráng miệng</option>
+                    <option>Nước uống</option>
+                </select>
+            </div>
+            <div class="advanced-search-price">
+                <span>Giá từ</span>
+                <input type="number" placeholder="tối thiểu" id="min-price" onchange="searchProducts()">
+                <span>đến</span>
+                <input type="number" placeholder="tối đa" id="max-price" onchange="searchProducts()">
+                <button id="advanced-search-price-btn"><i class="fa-light fa-magnifying-glass-dollar"></i></button>
+            </div>
+            <div class="advanced-search-control">
+                <button id="sort-ascending" onclick="searchProducts(1)"><i class="fa-regular fa-arrow-up-short-wide"></i></button>
+                <button id="sort-descending" onclick="searchProducts(2)"><i class="fa-regular fa-arrow-down-wide-short"></i></button>
+                <button id="reset-search" onclick="searchProducts(0)"><i class="fa-light fa-arrow-rotate-right"></i></button>
+                <button onclick="closeSearchAdvanced()"><i class="fa-light fa-xmark"></i></button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+        <br>
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Chào mừng bạn đến với <a href="https://www.facebook.com/people/T%C3%A9p-Ki%E1%BB%83ng-GK/61555712138715/?mibextid=LQQJ4d" style="text-decoration: underline; font-weight: bold;">Tép Kiểng GK</a>, đây là nơi chuyên về việc cung cấp các loại tép kiểng, cho người chơi thủy sinh và yêu tép cảnh. Tép Kiểng GK cung cấp một loạt các loại tép kiểng, từ những loài phổ biến như Vàng Đài, socola, White Orchid, White Sock đến những giống hiếm và độc đáo như Dark Bloody, Blue Diamond, Red Line, Tigri và nhiều loại tép khác. Ngoài ra điểm đặc biệt của trang wed này:</p>
+                <br />
+                <p>
+                    1. Chất lượng đảm bảo : Tất cả các tép kiểng được bán trên trang web đều được chăm sóc và nuôi dưỡng chất lượng cao. Đảm bảo sức khỏe và sự phát triển tốt của tép kiểng là ưu tiên hàng đầu.<br>
+
+2. Thông tin và hỗ trợ: Tép Kiểng GK không chỉ là nơi để mua sắm mà còn là một cộng đồng sôi động của những người yêu tép cảnh. Tại đây, bạn có thể chia sẻ kinh nghiệm, học hỏi từ những người có kinh nghiệm, và thảo luận với những người bạn cùng chí hướng.<br>
+
+3. Giao hàng toàn quốc: Tép Kiểng GK cung cấp dịch vụ giao hàng toàn quốc, giúp người chơi dễ dàng tiếp cận các loại tép kiểng mình yêu thích mà không cần phải lo lắng về khoảng cách.<br>
+
+4. Dịch vụ hỗ trợ khách hàng : Đội ngủ chuyên viên tư vấn của Tép Kiển Gk luôn sẵn sàng hỗ trợ khách hàng 24/7, sẵn sàng trả lời mọi thắc mắc của người dùng và hỗ trợ trong quá trình mua sắm và chăm sóc tép kiểng. <br>
+
+5. Trải nghiệm mua sắm thuận tiện: Với giao diện dễ sử dụng được thiết kế trên wed, việc mua sắm tép kiểng trở nên thuận tiện và tiết kiệm thời gian hơn bao giờ hết.<br>
+
+Với sự đa dạng sản phẩm, chất lượng đảm bảo, và dịch vụ chăm sóc khách hàng tận tình, Tép Kiểng GK là điểm đến lý tưởng cho những người yêu tép cảnh muốn tạo ra một bể tép kiểng đẹp và sống động.
+                </p>
+            </div>
+            <br>
+            <img src="file:///E:/Project%20Lam%20Lai/Web%202/Webbanhang/assets/img/gioithieuanh.png" class="center-image" width="960">
+
+        </div>
+    </section>
+</body>
+<br>
+<footer>
+    <div class="info-right">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.8873800613673!2d105.64119316950428!3d10.45727621818472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a6454b19527c9%3A0x3105a22831116adb!2zMTY2IEzDqiBBbmggWHXDom4sIFBoxrDhu51uZyAyLCBUUC4gQ2FvIEzDo25oLCDEkOG7k25nIFRow6FwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1714070301626!5m2!1svi!2s" width="1380" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</footer>
