@@ -1590,7 +1590,11 @@ input[type=number] {
     color: #0000008a;
     font-size: 14px;
 }
-
+.info-right {
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang /
+    align-items: center; / Canh giữa theo chiều dọc */
+}
 .order-history-price {
     display: flex;
     flex-direction: column;
