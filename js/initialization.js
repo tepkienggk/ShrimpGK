@@ -595,6 +595,15 @@ function createProduct() {
             "price": "45000",
             "desc": "pH 4\nPro\n1\n2\n32\n133\n232\n32",
             "status": 1
+          },
+          {
+            "id": 4,
+            "title": "Tép Bloody",
+            "img": "./assets/img/products/tepdo.jpg",
+            "category": "Tép Màu",
+            "price": "15000",
+            "desc": "Tép Đỏ Bloody hiện là một trong những loại tép cảnh nước ngọt được ưa chuộng nhất với màu đỏ sắc nét và phong cách độc đáo. Được lai tạo đặc biệt để tạo ra màu sắc nổi bật, BloodyMary trở thành một điểm nhấn lôi cuốn trong bể cá cảnh, thu hút sự chú ý của người chơi tép cảnh trên khắp thế giới.\nĐặc điểm nhận diện:\n- Với màu đỏ sắc sảo, vỏ chúng rất đẹp mắt mà không có bất kỳ đốm trắng hay bể nào.\n- Phần mũi của chúng ngắn hơn so với một số loại tép khác như Fire Red hoặc Painted Fire Red.\n- Tép con sinh ra đã có màu đỏ , tép càng lớn màu càng đậm 😍\nĐiều kiện môi trường dễ nuôi:\n1. pH: 5.5-8.5 \n2. TDS (Tổng chất rắn hòa tan): 170-220ppm \n3. Nhiệt độ: 21-31 độ C -  nhiệt độ ổn định ở khoảng 26 độ C là lựa chọn tốt.\n4. Gh: 6-8 \nChăm sóc và dinh dưỡng:\n1. Thức ăn: Bloody Mary là loài ưa ăn thức ăn tươi sống như vi sinh vật nước, chất hữu cơ, và thức ăn lành mạnh cho tép cảnh. Đảm bảo cung cấp đa dạng thức ăn để đáp ứng nhu cầu dinh dưỡng.\n2. Môi trường sống: Tạo ra một môi trường sống ổn định với chất lượng nước tốt và nhiều khu vực trú ẩn để chúng cảm thấy an toàn và thoải mái.",
+            "status": 1
           }
         ]
         localStorage.setItem('products', JSON.stringify(products));
