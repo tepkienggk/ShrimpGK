@@ -2407,7 +2407,7 @@ input[type=number] {
 
 .btn-container2 {
     position: fixed;
-    bottom: 275px; /* Điều chỉnh khoảng cách từ dưới cùng */
+    bottom: 280px; /* Điều chỉnh khoảng cách từ dưới cùng */
     right: 20px; /* Điều chỉnh khoảng cách từ phải cùng */
     z-index: 9999; /* Đảm bảo nút hiển thị trên các phần tử khác */
 }
