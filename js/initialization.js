@@ -586,6 +586,15 @@ function createProduct() {
             "price": "10000",
             "desc": "tép nuôi chung với cá",
             "status": 1
+          },
+          {
+            "id": 3,
+            "title": "dark bobby",
+            "img": "./assets/img/products/dark-bloody.jpg",
+            "category": "Tép Màu",
+            "price": "45000",
+            "desc": "pH 4\nPro\n1\n2\n32\n133\n232\n32",
+            "status": 1
           }
         ]
         localStorage.setItem('products', JSON.stringify(products));
