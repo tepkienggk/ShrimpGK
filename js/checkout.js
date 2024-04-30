@@ -180,24 +180,32 @@ function dathangngay() {
     let productInfo = document.getElementById("product-detail-content");
     let datHangNgayBtn = productInfo.querySelector(".button-dathangngay");
     datHangNgayBtn.onclick = () => {
-        if(localStorage.getItem('currentuser')) {
-            let productId = datHangNgayBtn.getAttribute("data-product");
-            let soluong = parseInt(productInfo.querySelector(".buttons_added .input-qty").value);
-            let notevalue = productInfo.querySelector("#popup-detail-note").value;
-            let ghichu = notevalue == "" ? "Không có ghi chú" : notevalue;
-            let products = JSON.parse(localStorage.getItem('products'));
-            let a = products.find(item => item.id == productId);
-            a.soluong = parseInt(soluong);
-            a.note = ghichu;
-            checkoutpage.classList.add('active');
-            thanhtoanpage(2,a);
-            closeCart();
-            body.style.overflow = "hidden"
-        } else {
-            toast({ title: 'Warning', message: 'Chưa đăng nhập tài khoản !', type: 'warning', duration: 3000 });
-        }
+        let fanpageURL = "https://www.facebook.com/profile.php?id=61555712138715&mibextid=LQQJ4d"; // Đường dẫn fanpage
+        window.location.href = fanpageURL; // Chuyển hướng trang web sang fanpage
     }
 }
+// function dathangngay() {
+//     let productInfo = document.getElementById("product-detail-content");
+//     let datHangNgayBtn = productInfo.querySelector(".button-dathangngay");
+//     datHangNgayBtn.onclick = () => {
+//         if(localStorage.getItem('currentuser')) {
+//             let productId = datHangNgayBtn.getAttribute("data-product");
+//             let soluong = parseInt(productInfo.querySelector(".buttons_added .input-qty").value);
+//             let notevalue = productInfo.querySelector("#popup-detail-note").value;
+//             let ghichu = notevalue == "" ? "Không có ghi chú" : notevalue;
+//             let products = JSON.parse(localStorage.getItem('products'));
+//             let a = products.find(item => item.id == productId);
+//             a.soluong = parseInt(soluong);
+//             a.note = ghichu;
+//             checkoutpage.classList.add('active');
+//             thanhtoanpage(2,a);
+//             closeCart();
+//             body.style.overflow = "hidden"
+//         } else {
+//             toast({ title: 'Warning', message: 'Chưa đăng nhập tài khoản !', type: 'warning', duration: 3000 });
+//         }
+//     }
+// }
 
 // Close Page Checkout
 function closecheckout() {

@@ -81,7 +81,7 @@ function detailProduct(index) {
             <span class="price">${vnd(infoProduct.price)}</span>
         </div>
         <div class="modal-footer-control">
-            <button class="button-dathangngay" data-product="${infoProduct.id}">Đặt hàng ngay</button>
+            <button  class="button-dathangngay" data-product="${infoProduct.id}">LH:0949313319 or FB: Tép Kiểng GK</button>
             <button class="button-dat" id="add-cart" onclick="animationCart()"><i class="fa-light fa-basket-shopping"></i></button>
         </div>
     </div>`;

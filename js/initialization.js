@@ -561,50 +561,158 @@ function createProduct() {
         //     desc: 'Dâu tây ăn nguyên quả ngon ngọt, có cả quả dôn dốt chua, màu đỏ mọng trông cực yêu. Không chỉ ngon miệng mà đồ uống từ dâu tây còn có công dụng bảo vệ sức khỏe, sáng mắt, đẹp da, thon gọn vóc dáng. Làm giảm nguy cơ mắc bệnh về mỡ máu, chống viêm,…'
         // },
         {
-            id: 61,
-            title: 'tép ',
-            img: './assets/img/products/1213.jpg',
-            category: 'Tép màu',
-            price: 10000,
-            desc: 'tép cặc',
-            status: 1
-          },
-          {
-            "id": 62,
-            "title": "Tép sula",
-            "img": "./assets/img/products/tep-snowball.jpg",
-            "category": "Tép Sulaweshi",
-            "price": 20000,
-            "desc": "tép sulaweshi",
-            "status": 1
-          },
-          {
-            "id": 2,
-            "title": "Tép Galaxy",
-            "img": "./assets/img/products/tep-galaxy.jpg",
-            "category": "Cá nuôi với tép",
-            "price": "10000",
-            "desc": "tép nuôi chung với cá",
-            "status": 1
-          },
-          {
-            "id": 3,
-            "title": "dark bobby",
-            "img": "./assets/img/products/dark-bloody.jpg",
-            "category": "Tép Màu",
-            "price": "45000",
-            "desc": "pH 4\nPro\n1\n2\n32\n133\n232\n32",
-            "status": 1
-          },
-          {
-            "id": 4,
-            "title": "Tép Bloody",
-            "img": "./assets/img/products/tepdo.jpg",
-            "category": "Tép Màu",
-            "price": 15000,
-            "desc": "Tép Đỏ Bloody hiện là một trong những loại tép cảnh nước ngọt được ưa chuộng nhất với màu đỏ sắc nét và phong cách độc đáo. Được lai tạo đặc biệt để tạo ra màu sắc nổi bật, BloodyMary trở thành một điểm nhấn lôi cuốn trong bể cá cảnh, thu hút sự chú ý của người chơi tép cảnh trên khắp thế giới.\n\n\n******\nĐặc điểm nhận diện:\n- Với màu đỏ sắc sảo, vỏ chúng rất đẹp mắt mà không có bất kỳ đốm trắng hay bể nào.\n- Phần mũi của chúng ngắn hơn so với một số loại tép khác như Fire Red hoặc Painted Fire Red.\n- Tép con sinh ra đã có màu đỏ , tép càng lớn màu càng đậm 😍\nĐiều kiện môi trường dễ nuôi:\n1. pH: 5.5-8.5 \n2. TDS (Tổng chất rắn hòa tan): 170-220ppm \n3. Nhiệt độ: 21-31 độ C -  nhiệt độ ổn định ở khoảng 26 độ C là lựa chọn tốt.\n4. Gh: 6-8 \nChăm sóc và dinh dưỡng:\n1. Thức ăn: Bloody Mary là loài ưa ăn thức ăn tươi sống như vi sinh vật nước, chất hữu cơ, và thức ăn lành mạnh cho tép cảnh. Đảm bảo cung cấp đa dạng thức ăn để đáp ứng nhu cầu dinh dưỡng.\n2. Môi trường sống: Tạo ra một môi trường sống ổn định với chất lượng nước tốt và nhiều khu vực trú ẩn để chúng cảm thấy an toàn và thoải mái.",
-            "status": 1
-          }
+          "id": 16,
+          "title": "Blue Diamond",
+          "img": "./assets/img/products/bluediamon.jpg",
+          "category": "Tép Màu",
+          "price": "40000",
+          "desc": "Tép Blue Diamond thu hút ánh nhìn bằng màu xanh đen  có tông đậm, gợi nhớ đến sâu biển với vẻ đẹp ma mị và cuốn hút người chơi. đồng thời tạo ra sự đa dạng trong hình dáng của chúng.\nLoài tép này bắt nguồn từ tép Chocolate trong các bể lai tạo. Những cá thể ban đầu đã trải qua những đột biến để tạo ra các con Black Rili, mở ra một thế giới mới trong việc nuôi tép với sự đa dạng và phong phú hơn.\nThông số nuôi\nĐộ PH: 6.5 – 7.5\nĐộ GH: 5-7\nĐộ TDS: 180-200\nNhiệt độ (độ C): 27 – 29",
+          "status": 1
+        },
+        {
+          "id": 15,
+          "title": "Sulawesi White Sock",
+          "img": "./assets/img/products/chantrang.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "20000",
+          "desc": "Tép Sula Chân Trắng là một trong những dòng tép sula quốc dân , được anh em săn đón bởi ngoại hình đặc sắc ,Tép khoắc lên mình màu đỏ hoặc đen và đuợc tô điểm bởi chấm bi màu trắng làm cho tổng thể màu sắc cực kì cuốn hút và điểm đặc biệt của dòng tép này là đôi chân trắng đầy ma mị , khi quen hồ thì các bạn sẽ thấy chúg đảo chân kiếm ăn nhìn rất là hay 🥰\nThông số nuôi tép sula chân trắng:\npH : 7.5-8.5\nNhiệt độ : 26-31 độ C\nGh: 7-9\nNo3: 0",
+          "status": 1
+        },
+        {
+          "id": 14,
+          "title": "Socola ",
+          "img": "./assets/img/products/socola.jpg",
+          "category": "Tép Màu",
+          "price": "10000",
+          "desc": "là một loài cải tiến từ loài Neocaridina denticulata var. Loài tép này có nguồn gốc xuất xứ từ Đài Loan, Thái Lan và dần trở thành loài sinh vật được nhiều người yêu thích bởi màu sắc đặc trưng của loại kẹo socola , với một số cá thể có màu đen tuyền nhưng đa phần là màu nâu socola . khi thả vào hồ thủy sinh thì rất nỗi bật , màu nâu đậm nổi bật và chúng dễ thích nghi với môi trường và nhiệt độ vùng nhiệt đới như Việt Nam\nThông số tối ưu để tép phát triển tốt nhất :\n- Nhiệt độ: 26-30 độ Celsius\n- pH: 6,5 - 7,5\n- Độ cứng của nước (GH): 5-7\n- TDS: 150-250",
+          "status": 1
+        },
+        {
+          "id": 13,
+          "title": "White Orchid",
+          "img": "./assets/img/products/wo.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "15000",
+          "desc": "Được dịch đến với tên gọi Tép Sula Phong Lan Trắng nhưng tên mà anh em biết đến nhiều nhất là WO. Xuất xứ từ hồ Malili thuộc vùng đảo Sulawesi của Indonesia, loài tép này mang trong mình vẻ đẹp độc đáo với nhiều chấm đen khắp cơ thể, râu và mắt màu cam , thân hình trong.\nTép Sulawesi White Orchid thích môi trường :\npH cao 7.5-8.5\nnhiệt độ :26 - 30 độ C.\nGh : 7-9\nNo3: 0",
+          "status": 1
+        },
+        {
+          "id": 12,
+          "title": "Orange Shrimp 🍊",
+          "img": "./assets/img/products/tepcam.jpg",
+          "category": "Tép Màu",
+          "price": "8000",
+          "desc": "Hay được gọi là Tépcam Thuộc họ neocaridina với màu cam sáng hơi ánh vàng , hay được mọi người so sánh như một quả cam vì thế cái tên #Orangeshrimp ra đời ,có xuất phát từ Đài Loan, là điểm nhấn trong bể thủy sinh với vẻ đẹp tự nhiên và dễ chăm sóc. Dòng tép này không chỉ là một lựa chọn thú vị cho bể mà còn là một dòng tép nên có trong bộ sưu tập tép cảnh của người chơi .\nKhuyến nghị: Nên nuôi riêng một dòng gen này để bảo tồn tránh mất màu .\nThông số nuôi tương tự như các loại tép màu thuộc họ Neocaridina khác:\n- Nhiệt độ: 26-30 độ Celsius\n- pH: 6,5 - 7,5\n- Độ cứng của nước (GH): 5-7\n- TDS: 150-250",
+          "status": 1
+        },
+        {
+          "id": 11,
+          "title": "Green jade",
+          "img": "./assets/img/products/greenjade.jpg",
+          "category": "Tép Màu",
+          "price": "35000",
+          "desc": "Hay còn gọi là Tép Ngọc Lục Bảo 🍃một trong những biến thể màu mới của loài Neocaridina. Chúng được tạo ra thông qua quá trình lai tạo chọn lọc từ Tép Red Cherry, đã tạo ra các bé Green Jade này . Đặc điểm của Tép Green Jade là màu sắc đa dạng, từ các đốm xanh lá cây sáng và sọc trên nền màu vàng mờ cho đến các tông màu xanh lục khác nhau. Một số cá thể có màu xanh lục nhạt, trong khi những con khác lại có màu ngọc lục bảo đậm hơn.\nTép con sinh ra có màu xanh lợt, chúng càg lớn thì màu sắc càng đậm theo 🤓\nLưu ý: Đảm bảo nước mới có cùng thông số với nước trong bể.\n\nThông số nuôi :\n- Nhiệt độ: 26-30 độ Celsius\n- pH: 6,5 - 7,5\n- Độ cứng của nước (GH): 5-7\n- TDS: 150-250",
+          "status": 1
+        },
+        {
+          "id": 10,
+          "title": "Sulawesi Yellow Cheek ",
+          "img": "./assets/img/products/cheeck.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "50000",
+          "desc": "Tép Yellow Cheek, hay còn được gọi là tép Sulawesi má vàng, là một loại tép cá nhân hấp dẫn với vẻ ngoài độc đáo và màu sắc bắt mắt. Với cơ thể được phủ màu đỏ sậm hoặc màu vàng đậm, và được trang trí bởi các sọc và dấu chấm màu vàng từ đầu đến đuôi, Xuất xứ từ Hồ Towuti trên đảo Sulawesi của Indonesia, chúng là sản phẩm của môi trường nước ngọt đặc biệt nàyđây là dòng tép hạng cao , yêu cầu khả năng duy trì của người chơi , thông số của môi trường nuôi phải có thông số chuẩn và một hệ vi sinh mạnh đó là lý do tại sao mà làm cho #tépYellowCheek trở thành mục tiêu để người chơi chinh phục",
+          "status": 1
+        },
+        {
+          "id": 9,
+          "title": "Sulawesi Tigri",
+          "img": "./assets/img/products/sulatigri.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "60000",
+          "desc": "Tép Sulawesi Tigri là loài có ngoại hình tương tự như cọp, với sự phong phú về màu sắc từ đỏ, cam, vàng đến đen và trắng. Sự đa dạng màu sắc này tạo nên một bức tranh tươi sáng, sống động trong bể thủy sinh.\nXuất xứ đặc biệt: Tép Sulawesi Tigri tồn tại tự nhiên trên đảo Sulawesi, Indonesia, nơi có môi trường nước ngọt độc đáo và cảnh quan thiên nhiên tuyệt vời.\nSulawesi Tigri là dòng tép có độ khó tầm trung và yêu cầu môi trường hệ vi sinh ổn định : \n+nhiệt độ: 26-31 độ\n+ pH 8-8.5\n+Tds: 150-190\n+ gH 6-9\n+No3: 0",
+          "status": 1
+        },
+        {
+          "id": 8,
+          "title": "Goldenback Yellow ",
+          "img": "./assets/img/products/vangdai.jpg",
+          "category": "Tép Màu",
+          "price": "12000",
+          "desc": "Hay còn được mọi người biết đến với tên thân thuộc \"Tép Vàng Sọc Đài\" không chỉ đẹp mắt mà còn đặc biệt với sọc vàng kéo dài từ đầu tới đuôi tạo nên giá trị của nó. Tép có tính cách hòa đồng và thân thiện, làm cho chúng trở thành lựa chọn lý tưởng cho những người mới tập chơi bể thủy sinh. Điều này là do chúng thường sống hòa mình trong đàn, tạo nên một cảm giác an ninh và yên bình trong bể cá. Tính cách hòa đồng này không chỉ giúp chúng tương thích tốt với các loại cá khác mà còn làm cho quá trình chăm sóc trở nên thú vị hơn.Thông số nuôi tương tự như các loại tép màu thuộc họ Neocaridina khác:\n- Nhiệt độ: 26-30 độ Celsius\n- pH: 6,5 - 7,5\n- Độ cứng của nước (GH): 5-7\n- TDS: 150-250",
+          "status": 1
+        },
+        {
+          "id": 7,
+          "title": "Blue Dream",
+          "img": "./assets/img/products/bluedream.jpg",
+          "category": "Tép Màu",
+          "price": "13000",
+          "desc": "Blue Dream - Tép xanh da trời là dòng tép phổ biến nhất tại thị trường Việt Nam được người chơi tép yêu thích. Màu sắc của chúng có thể biến đổi từ xanh lam đậm đến xanh lam nhạt, tạo ấn tượng mạnh mẽ. Đây là loại tép dễ nuôi và chăm sóc, không đòi hỏi nghiêm ngặt về chất lượng nước:\nđộ pH: từ 6,5 đến 7,5,\n(TDS): 120 đến 250\nnhiệt độ: từ 18 đến 26 độ C.",
+          "status": 1
+        },
+        {
+          "id": 6,
+          "title": "Sulawesi Boxer",
+          "img": "./assets/img/products/sulawesiboxer.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "50000",
+          "desc": "tép sula boxer tuy không đẹp về màu sắc nhưng điểm đặc biệt của dòng tép này là nó biết múa quạt, rất dễ nuôi, thích nghi với môi trường tốt tuy nhiên tép con lâu lớn \nThông số nuôi:\npH: 7,4-8,4\nNhiệt độ: 26-31\nTDS: 80-140\nKH: 0-6\nGH: 4-9",
+          "status": 1
+        },
+        {
+          "id": 5,
+          "title": "Dark Bloody",
+          "img": "./assets/img/products/dark-bloody.jpg",
+          "category": "Tép Màu",
+          "price": "45000",
+          "desc": "Tép này là một loài khá đặc biệt trong họ Bloody Mary. Điểm đặc biệt của chúng bao gồm:\n- Tép có một màu đỏ rất là ma mị được tạo ra do quá trình lai tạo, tuyển chọn cá thể ưu tú qua nhiều đời để có màu sắc đẹp như vậy 😍, Tép con mới nở thường có màu xanh lam (ban đầu tôi nhìn như loạn màu ),tuy nhiên đừg quá lo vì màu đỏ sẽ gia tăng theo thời gian , tép càng lớn thì màu đỏ càng đậm và tạo ra màu đen ánh đỏ như hiện tại.\n- Chúng có thể được nuôi chung với các loại Bloody Mary khác, nhưng sau một thời gian tép con sẽ không ra được màu đen ánh đỏ , chỉ ra màu Bloody Marry\n- Do có màu đặc biệt , nên không đánh giá chúng là chất lượng A hoặc S, mà sẽ gọi chúng là #DarkBloodyMary. Mỗi sự đột phá đều mang lại giá trị riêng của nó.\nKhuyến nghị: Nên nuôi riêng một dòng gen này để bảo tồn tránh mất màu .\nThông số nuôi tương tự như các loại tép màu thuộc họ Neocaridina khác:\n- Nhiệt độ: 26-30 độ Celsius\n- pH: 6,5 - 7,5\n- Độ cứng của nước (GH): 5-7\n- TDS: 150-250",
+          "status": 1
+        },
+        {
+          "id": 61,
+          "title": "tép ",
+          "img": "./assets/img/products/1213.jpg",
+          "category": "Tép màu",
+          "price": 10000,
+          "desc": "tép cặc",
+          "status": 0
+        },
+        {
+          "id": 62,
+          "title": " Snow Ball",
+          "img": "./assets/img/products/tep-snowball.jpg",
+          "category": "Tép Màu",
+          "price": 10000,
+          "desc": "Tép SnowBallshrimp là một dòng tép được lai tạo và công bố lần đầu cách đây 10 năm bởi người Đức, Những \"Quả cầu tuyết\" này đã tạo ra một cơn sốt trong cộng đồng thủy sinh . Với vẻ đẹp độc đáo của chúng, không giống bất kỳ loài Neocaridina nào khác, Snow Ball thu hút người chơi bởi sự trong trẻo và khả năng nhìn thấy các cơ quan bên trong tép hoạt động . Việc quan sát các cơ quan bên trong tép hoạt động một cách tự nhiên và minh bạch thực sự là một trải nghiệm thú vị và hấp dẫn đối với người chơi thủy sinh.\n\nĐặc biệt, với Snow Ball trứng của dòng tép này có màu trắng 🤩 khác với trứng của các dòng tép khác thường là màu vàng\nKhuyến nghị: Nên nuôi riêng một dòng gen này để bảo tồn tránh mất màu .\nThông số nuôi tương tự như các loại tép màu thuộc họ Neocaridina khác:\n- Nhiệt độ: 26-30 độ Celsius\n- pH: 6,5 - 7,5\n- Độ cứng của nước (GH): 5-7\n- TDS: 150-250",
+          "status": 1
+        },
+        {
+          "id": 2,
+          "title": "Sulawesi Galaxy",
+          "img": "./assets/img/products/tep-galaxy.jpg",
+          "category": "Tép Sulaweshi",
+          "price": 50000,
+          "desc": "Anh em có thể dễ dàng thấy lý do tại sao chúng được gọi như vậy. Tép sula galaxy có màu đen , nâu hoặc đỏ ( một vào cá thể siêu hiếm sẽ có màu xanh dương) trên thân sẽ có châm bi màu trắng\nĐây là dòng tép thuộc có nguồn gốc từ hồ ở Indonesia có khi hậu khá giống nuớc ta nên rất phù hợp cho ae miền nam chơi\nĐặc biệt ở dòng tép này là tép con sẽ sinh ra có thể khác màu với bố mẹ 😂 (vd: tép bố mẹ là màu nâu thì đời con có thể ra màu đen hoặc đỏ 😂) khá hên xuôi nên ae nào thích kiểu đỏ đen sẽ rất thích dòng này\nNgoài ra dòng tép này còn được phân hạng dựa vào màu sắc và châm trên lưng 🤩, màu càng đậm chấm càng to thì được gọi là hạng cao , nhưng cá thể không đạt tiêu chí trên sẽ là hạng thường 😅 nên nói chung là hên xuôi 😜🤪\n👉🏻Thông số nuôi :\n- Nhiệt độ: 26-30 độ\n- pH: 7,5-9\n- Độ cứng của nước (GH): 7-9\n- TDS: 150-180\n- No3: 0\n- Nền : oxyn sand hay sula sand\n- Nước: Ro\n-Khoáng : Sử dụng khoáng sula 7.5 và 8.5",
+          "status": 1
+        },
+        {
+          "id": 3,
+          "title": "Dark Bloody",
+          "img": "./assets/img/products/dark-bloody.jpg",
+          "category": "Tép Màu",
+          "price": 45000,
+          "desc": "Tép này là một loài khá đặc biệt trong họ Bloody Mary. Điểm đặc biệt của chúng bao gồm:\n- Tép có một màu đỏ rất là ma mị được tạo ra do quá trình lai tạo, tuyển chọn cá thể ưu tú qua nhiều đời để có màu sắc đẹp như vậy 😍, Tép con mới nở thường có màu xanh lam (ban đầu tôi nhìn như loạn màu ),tuy nhiên đừg quá lo vì màu đỏ sẽ gia tăng theo thời gian , tép càng lớn thì màu đỏ càng đậm và tạo ra màu đen ánh đỏ như hiện tại.\n- Chúng có thể được nuôi chung với các loại Bloody Mary khác, nhưng sau một thời gian tép con sẽ không ra được màu đen ánh đỏ , chỉ ra màu Bloody Marry\n- Do có màu đặc biệt , nên không đánh giá chúng là chất lượng A hoặc S, mà sẽ gọi chúng là #DarkBloodyMary. Mỗi sự đột phá đều mang lại giá trị riêng của nó.\nKhuyến nghị: Nên nuôi riêng một dòng gen này để bảo tồn tránh mất màu .\nThông số nuôi tương tự như các loại tép màu thuộc họ Neocaridina khác:\n- Nhiệt độ: 26-30 độ Celsius\n- pH: 6,5 - 7,5\n- Độ cứng của nước (GH): 5-7\n- TDS: 150-250",
+          "status": 0
+        },
+        {
+          "id": 4,
+          "title": "Bloody Marry",
+          "img": "./assets/img/products/tepdo.jpg",
+          "category": "Tép Màu",
+          "price": 15000,
+          "desc": "Tép Đỏ Bloody hiện là một trong những loại tép cảnh nước ngọt được ưa chuộng nhất với màu đỏ sắc nét và phong cách độc đáo. Được lai tạo đặc biệt để tạo ra màu sắc nổi bật, BloodyMary trở thành một điểm nhấn lôi cuốn trong bể cá cảnh, thu hút sự chú ý của người chơi tép cảnh trên khắp thế giới.\n\n\n******\nĐặc điểm nhận diện:\n- Với màu đỏ sắc sảo, vỏ chúng rất đẹp mắt mà không có bất kỳ đốm trắng hay bể nào.\n- Phần mũi của chúng ngắn hơn so với một số loại tép khác như Fire Red hoặc Painted Fire Red.\n- Tép con sinh ra đã có màu đỏ , tép càng lớn màu càng đậm 😍\nĐiều kiện môi trường dễ nuôi:\n1. pH: 5.5-8.5 \n2. TDS (Tổng chất rắn hòa tan): 170-220ppm \n3. Nhiệt độ: 21-31 độ C -  nhiệt độ ổn định ở khoảng 26 độ C là lựa chọn tốt.\n4. Gh: 6-8 \nChăm sóc và dinh dưỡng:\n1. Thức ăn: Bloody Mary là loài ưa ăn thức ăn tươi sống như vi sinh vật nước, chất hữu cơ, và thức ăn lành mạnh cho tép cảnh. Đảm bảo cung cấp đa dạng thức ăn để đáp ứng nhu cầu dinh dưỡng.\n2. Môi trường sống: Tạo ra một môi trường sống ổn định với chất lượng nước tốt và nhiều khu vực trú ẩn để chúng cảm thấy an toàn và thoải mái.",
+          "status": 1
+        }
         ]
         localStorage.setItem('products', JSON.stringify(products));
     }
