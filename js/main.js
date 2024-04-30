@@ -967,6 +967,17 @@ function showCategory(category) {
     setupPagination(productSearch, perPage, currentPageSeach);
     document.getElementById("home-title").scrollIntoView();
 }
+function composeEmail() {
+    var emailAddress = "tepkienggk@gmail.com";
+    var subject = "Chủ đề thư";
+    var body = "Nội dung thư";
+
+    var mailtoLink = "mailto:" + encodeURIComponent(emailAddress) +
+                     "?subject=" + encodeURIComponent(subject) +
+                     "&body=" + encodeURIComponent(body);
+
+    window.location.href = mailtoLink;
+}
 // Lấy phần tử <a> bằng id
 var btnPhone2 = document.getElementById("btn-phone2");
 
