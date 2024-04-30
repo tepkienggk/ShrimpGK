@@ -2371,3 +2371,74 @@ input[type=number] {
     border: 1px solid #ccc;
     padding: 20px;
 }
+
+.btn-container {
+    position: fixed;
+    top: 50%;
+    right: 20px; /* Điều chỉnh khoảng cách từ mép phải của màn hình */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-phone {
+    margin-bottom: 15px; /* Khoảng cách giữa các nút */
+    border-radius: 20px; /* Bo góc thành hình tròn */
+    overflow: hidden; /* Ẩn các nội dung vượt ra khỏi hình tròn */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mềm mại */
+}
+
+/* Kích thước của hình ảnh */
+.btn-phone img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Ẩn các nút khi thanh cuộn xuống */
+@media screen and (max-height: 600px) {
+    .btn-container {
+        display: none;
+    }
+}
+.btn-phone:hover {
+    transform: scale(1.1); /* Tăng kích thước nút khi di chuột vào */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Hiển thị shadow khi di chuột vào */
+}
+
+.btn-container2 {
+    position: fixed;
+    bottom: 220px; /* Điều chỉnh khoảng cách từ dưới cùng */
+    right: 20px; /* Điều chỉnh khoảng cách từ phải cùng */
+    z-index: 9999; /* Đảm bảo nút hiển thị trên các phần tử khác */
+}
+
+.btn-phone2 {
+    width: 35px; /* Kích thước chiều rộng ban đầu của nút */
+    height: 35px; /* Kích thước chiều cao ban đầu của nút */
+    transition: width 0.3s ease, height 0.3s ease; /* Thời gian và kiểu chuyển đổi */
+}
+
+.btn-phone2 img {
+    width: 100%; /* Đảm bảo hình ảnh trong nút lấp đầy toàn bộ khu vực nút */
+    height: 100%; /* Đảm bảo hình ảnh trong nút lấp đầy toàn bộ khu vực nút */
+}
+
+/* Hiệu ứng khi hover */
+.btn-phone2:hover {
+    width: 100px; /* Điều chỉnh chiều rộng khi hover */
+    height: 50px; /* Điều chỉnh chiều cao khi hover */
+    border-radius: 10px; /* Đặt border-radius để làm cho nút có góc bo tròn */
+    transition: width 0.3s ease, height 0.3s ease, border-radius 0.3s ease; /* Thời gian và kiểu chuyển đổi */
+}
+
+/* Hiệu ứng khi click */
+.btn-phone2:active {
+    transform: scale(0.95); /* Thu nhỏ nút khi click */
+}
+
+/* Trạng thái ban đầu khi không hover */
+.btn-phone2:not(:hover) {
+    width: 35px; /* Điều chỉnh lại kích thước chiều rộng khi không hover */
+    height: 35px; /* Điều chỉnh lại kích thước chiều cao khi không hover */
+    border-radius: 0; /* Reset border-radius về 0 khi không hover */
+}

@@ -849,7 +849,7 @@ function renderProducts(showProduct) {
                             <span class="current-price">${vnd(product.price)}</span>
                         </div>
                     <div class="product-buy">
-                        <button onclick="detailProduct(${product.id})" class="card-button order-item"><i class="fa-regular fa-cart-shopping-fast"></i> Đặt món</button>
+                        <button onclick="detailProduct(${product.id})" class="card-button order-item"><i class="fa-regular fa-cart-shopping-fast"></i> Liên hệ</button>
                     </div> 
                 </div>
                 </div>
@@ -967,5 +967,24 @@ function showCategory(category) {
     setupPagination(productSearch, perPage, currentPageSeach);
     document.getElementById("home-title").scrollIntoView();
 }
+// Lấy phần tử <a> bằng id
+var btnPhone2 = document.getElementById("btn-phone2");
+
+// Lưu trữ nội dung gốc của phần tử <a>
+var originalContent = btnPhone2.innerHTML;
+
+// Lắng nghe sự kiện mouseover
+btnPhone2.addEventListener("mouseover", function() {
+    // Thay đổi nội dung của phần tử <a> thành văn bản mới với màu đỏ in đậm
+    btnPhone2.innerHTML = '<span style="color: red; font-weight: bold;">Hotline: 0949313319</span>';
+});
+
+// Lắng nghe sự kiện mouseout
+btnPhone2.addEventListener("mouseout", function() {
+    // Khôi phục nội dung gốc của phần tử <a>
+    btnPhone2.innerHTML = originalContent;
+});
+
+
 
 
