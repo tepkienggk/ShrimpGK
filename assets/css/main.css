@@ -1804,7 +1804,7 @@ input[type=number] {
 }
 
 .widget-row-col {
-    width: 15%;
+    width: 20%;
 }
 
 .widget-row-col-1 {
@@ -1822,6 +1822,24 @@ input[type=number] {
     padding-bottom: 10px;
     margin-bottom: 20px;
     position: relative;
+}
+.widget-row-col1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.widget-row-col1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: none;
+    height: 3px;
+    width: 100px;
+    background-image: linear-gradient(to right, var(--red), transparent);
 }
 
 .widget-title::after {
