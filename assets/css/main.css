@@ -581,8 +581,8 @@ header {
     scroll-margin-top: 80px;
 }
 
-.home-slider{
-    display: flex;
+.home-slider {
+    position: relative;
 }
 
 .home-slider img {
