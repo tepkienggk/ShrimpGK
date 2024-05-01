@@ -583,12 +583,15 @@ header {
 
 .home-slider {
     position: relative;
+    width: 100%; /* Đảm bảo phần tử cha có chiều rộng 100% */
+    overflow: hidden; /* Ẩn phần ngoài khung hình */
 }
 
-.home-slider img {
-    
-    object-fit: cover;
-    border-radius: 5px;
+.slider-image {
+    width: 100%; /* Kích thước ảnh chiếm toàn bộ chiều rộng của phần tử cha */
+    height: auto; /* Chiều cao tự động điều chỉnh theo tỉ lệ */
+    object-fit: cover; /* Hiển thị ảnh mà không làm thay đổi tỉ lệ khung hình và không bị cắt bớt */
+    border-radius: 15px; /* Đường cong viền */
 }
 
 .home-service{
@@ -2348,23 +2351,44 @@ input[type=number] {
 }
 
 .video-container {
+    position: relative;
+}
+
+.wrapper2 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 41.67%; /* 500px / 1200px * 100% = 41.67% */
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: row; /* Sắp xếp các phần tử theo chiều ngang */
+    justify-content: center;
+    align-items: center;
 }
 
-.video-container .video {
-    flex: 1; /* Kích thước video sẽ co dãn để điền vào không gian còn trống */
-}
-
-.video-container .image {
-    flex: 1; /* Kích thước ảnh cũng sẽ co dãn để điền vào không gian còn trống */
-    margin-left: 10px; /* Khoảng cách giữa video và ảnh */
-}
-
-/* Đảm bảo ảnh không bị tràn ra ngoài khung */
-.video-container .image img {
-    max-width: 100%;
-    height: auto;
+.video-overlay iframe {
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+    max-width: 200%;
+    max-height: 200%;
 }
 .modal-container.mdl-cnt {
     /* Thêm các thuộc tính CSS bạn muốn thiết lập ở đây */
@@ -2386,16 +2410,23 @@ input[type=number] {
 }
 
 .btn-phone {
-    margin-bottom: 15px; /* Khoảng cách giữa các nút */
-    border-radius: 20px; /* Bo góc thành hình tròn */
+    width: 50px;
+    height: 50px;
+    background-color: rgb(238, 225, 225);
+    margin-bottom: 5px; /* Khoảng cách giữa các nút */
+    border-radius: 100px; /* Bo góc thành hình tròn */
     overflow: hidden; /* Ẩn các nội dung vượt ra khỏi hình tròn */
     transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mềm mại */
+    display: flex; /* Sử dụng flexbox */
+    align-items: center; /* Căn dọc giữa */
+    justify-content: center; /* Căn ngang giữa */
 }
 
 /* Kích thước của hình ảnh */
 .btn-phone img {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 37px;
+    border-radius: 10px;
 }
 
 /* Ẩn các nút khi thanh cuộn xuống */
@@ -2411,8 +2442,8 @@ input[type=number] {
 
 .btn-container2 {
     position: fixed;
-    bottom: 280px; /* Điều chỉnh khoảng cách từ dưới cùng */
-    right: 20px; /* Điều chỉnh khoảng cách từ phải cùng */
+    bottom: 219px; /* Điều chỉnh khoảng cách từ dưới cùng */
+    right: 27px; /* Điều chỉnh khoảng cách từ phải cùng */
     z-index: 9999; /* Đảm bảo nút hiển thị trên các phần tử khác */
 }
 
@@ -2423,6 +2454,7 @@ input[type=number] {
 }
 
 .btn-phone2 img {
+    border-radius: 100px;
     width: 100%; /* Đảm bảo hình ảnh trong nút lấp đầy toàn bộ khu vực nút */
     height: 100%; /* Đảm bảo hình ảnh trong nút lấp đầy toàn bộ khu vực nút */
 }
