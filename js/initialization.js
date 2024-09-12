@@ -712,6 +712,78 @@ function createProduct() {
           "price": 15000,
           "desc": "Tép Đỏ Bloody hiện là một trong những loại tép cảnh nước ngọt được ưa chuộng nhất với màu đỏ sắc nét và phong cách độc đáo. Được lai tạo đặc biệt để tạo ra màu sắc nổi bật, BloodyMary trở thành một điểm nhấn lôi cuốn trong bể cá cảnh, thu hút sự chú ý của người chơi tép cảnh trên khắp thế giới.\n\n\n******\nĐặc điểm nhận diện:\n- Với màu đỏ sắc sảo, vỏ chúng rất đẹp mắt mà không có bất kỳ đốm trắng hay bể nào.\n- Phần mũi của chúng ngắn hơn so với một số loại tép khác như Fire Red hoặc Painted Fire Red.\n- Tép con sinh ra đã có màu đỏ , tép càng lớn màu càng đậm 😍\nĐiều kiện môi trường dễ nuôi:\n1. pH: 5.5-8.5 \n2. TDS (Tổng chất rắn hòa tan): 170-220ppm \n3. Nhiệt độ: 21-31 độ C -  nhiệt độ ổn định ở khoảng 26 độ C là lựa chọn tốt.\n4. Gh: 6-8 \nChăm sóc và dinh dưỡng:\n1. Thức ăn: Bloody Mary là loài ưa ăn thức ăn tươi sống như vi sinh vật nước, chất hữu cơ, và thức ăn lành mạnh cho tép cảnh. Đảm bảo cung cấp đa dạng thức ăn để đáp ứng nhu cầu dinh dưỡng.\n2. Môi trường sống: Tạo ra một môi trường sống ổn định với chất lượng nước tốt và nhiều khu vực trú ẩn để chúng cảm thấy an toàn và thoải mái.",
           "status": 1
+        },
+        {
+          "id": 24,
+          "title": "Cá Trâm",
+          "img": "./assets/img/products/catram.jpg",
+          "category": "Cá nuôi với tép",
+          "price": "1000",
+          "desc": "dễ nuôi ăn tạp , chuyên ăn bọ nước và đặc biệt ko ăn tép con",
+          "status": 1
+        },
+        {
+          "id": 23,
+          "title": "Chuột Pygmy",
+          "img": "./assets/img/products/chuotpygmy.jpg",
+          "category": "Cá nuôi với tép",
+          "price": "40000",
+          "desc": "dễ nuôi ăn tạp , chuyên ăn bọ nước và đặc biệt ko ăn tép con",
+          "status": 1
+        },
+        {
+          "id": 22,
+          "title": "Tép Sulawesi - Harlaquin",
+          "img": "./assets/img/products/hallowinkhanquangco.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "50000",
+          "desc": "Tép Sulawesi Harlequin, hay còn được biết đến với tên gọi \"Khăn Quàng Cổ,\" là một loài tép độc đáo có nguồn gốc từ Hồ Towuti trên đảo Sulawesi.\n Loài tép này nổi bật với các khoang màu rõ rệt, sự pha trộn hài hòa giữa màu trắng và đỏ đậm trên cơ thể. Điểm đặc trưng của Harlequin là khoang màu trắng trên cổ, giống như một chiếc khăn quàng, tạo nên vẻ đẹp riêng biệt và thu hút.\nChân của tép Harlequin có hai màu rõ rệt: phần trên màu trắng, phần dưới màu đỏ, cùng với râu màu đỏ cam nổi bật. Những đặc điểm này làm cho Harlequin trở thành một loài tép rất được ưa chuộng trong cộng đồng chơi tép, nhưng cũng đầy thách thức đối với những người mới.\nHarlequin là một dòng tép khó nuôi, đòi hỏi môi trường sống có hệ vi sinh mạnh và ổn định. Để nuôi và sinh sản thành công, người chơi cần phải có kiến thức sâu rộng về các thông số môi trường, đặc biệt là kiểm soát pH trong bể nuôi. Sự ổn định của các yếu tố này đóng vai trò quan trọng trong việc giúp Harlequin phát triển và sinh sản hiệu quả.",
+          "status": 1
+        },
+        {
+          "id": 21,
+          "title": "Tép Sulawesi - Red Line",
+          "img": "./assets/img/products/redline.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "50000",
+          "desc": "Tép Sulawesi Red Line, còn được gọi là Caridina striata, là một loài tép nổi bật với màu sắc rực rỡ và sự hiện diện thu hút, Tép #SulawesiRedLine có một cơ thể chủ yếu là màu trắng với nhiều sọc đỏ kéo dài từ đầu tới đuôi tạo ra sự tương phản mạnh mẽ và làm nổi bật vẻ đẹp của loài tép này, Mắt của loài tép này cũng rất đặc biệt với sắc đỏ hoặc cam, đồng nhất với màu sắc của các sọc đỏ trên thân. Chân của tép có màu trắng, trong khi đuôi có màu vàng. Rau dài của chúng có màu đỏ, tạo nên một sự kết hợp màu sắc rất ấn tượng.\nYêu Cầu Môi Trường: Tép Sulawesi Red Line yêu cầu một môi trường nuôi dưỡng khá cao cấp và cụ thể. Chúng là loài rất khó nuôi cũng như sinh sản cần có yêu cầu nghiêm ngặt về đổ ổn định thông số nước và điều kiện không khí cùng với  hệ vi sinh siêu cực khỏe nên tép Sulawesi Red Line có thể không phải là lựa chọn tốt nhất cho người mới bắt đầu",
+          "status": 1
+        },
+        {
+          "id": 20,
+          "title": "Tép Sulawesi - Red Orchid ",
+          "img": "./assets/img/products/redorchid.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "40000",
+          "desc": "Tép Red Orchid sở hữu vẻ ngoài tương tự như Tép White Orchid, nhưng điểm khác biệt nổi bật là màu đỏ rực rỡ thay vì trắng trong suốt. Các chấm màu trắng trên cơ thể tạo nên một diện mạo sắc sỡ và thu hút hơn so với người anh em trắng của nó. Về độ khó nuôi, Tép Red Orchid thuộc mức trung bình dễ, yêu cầu hệ vi sinh ổn định và pH nước ổn định để phát triển tốt.",
+          "status": 1
+        },
+        {
+          "id": 19,
+          "title": "Tép Sulawesi - Red Crystal ",
+          "img": "./assets/img/products/redcrystal.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "50000",
+          "desc": "Tép Sulawesi Red Crystal đang dần trở thành một cái tên nổi bật trong cộng đồng người chơi tép sula. Mới xuất hiện trên thị trường, loài tép này nhanh chóng thu hút sự chú ý nhờ toàn thân màu đỏ đậm, nổi bật với các chấm trắng phủ khắp cơ thể, tạo nên một vẻ ngoài vô cùng cuốn hút. \nRed Crystal có nhiều điểm tương đồng với tép Sulawesi Galaxy, dễ gây nhầm lẫn cho những ai chưa có nhiều kinh nghiệm. Tuy nhiên, sự khác biệt đáng chú ý của Red Crystal chính là tỷ lệ đời con giống bố mẹ cao hơn. Đây là một điểm cộng lớn đối với những người muốn duy trì và phát triển dòng tép này, mà không phải lo lắng về sự phân hạng màu sắc khác biệt như ở Galaxy. \nMột trong những lý do chính khiến Red Crystal được ưa chuộng là khả năng thích nghi và sinh sản dễ dàng. Không đòi hỏi nhiều kỹ thuật chăm sóc phức tạp, loài tép này phù hợp cho cả người mới bắt đầu và những ai đã có kinh nghiệm. Chúng phát triển tốt trong môi trường nước ổn định và có thể sinh sản nhanh chóng khi được cung cấp điều kiện sống tối ưu.",
+          "status": 1
+        },
+        {
+          "id": 18,
+          "title": "Tép Sulawesi Yellow Nose ",
+          "img": "./assets/img/products/yellownose.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "50000",
+          "desc": "Tép Sulawesi Yellow Nose, hay còn gọi là Tép Sula Mũi Vàng, là một trong những loài tép thú vị và hấp dẫn dành cho những người yêu thích nuôi tép cảnh. Nhiều ae còn nói vui là tép nhìn giống kiến lửa 🤣🤣 \nĐặc điểm nổi bật:\nNgoại hình đẹp mắt: Tép Sulawesi Yellow Nose Với bộ râu dài, trắng muốt, những chân phụ màu vàng tươi và mũi vàng nổi bật, tạo nên sự khác biệt so với các loại tép khác.\nDễ chăm sóc: Mặc dù có độ khó trung bình, loài tép này khá dễ chăm sóc và thích nghi với điều kiện môi trường ở Việt Nam. Với nhiệt độ từ 26-31 độ C, chúng phát triển và sinh sản rất tốt.",
+          "status": 1
+        },
+        {
+          "id": 17,
+          "title": "Sulawesi Chân Xanh",
+          "img": "./assets/img/products/chanxanh.jpg",
+          "category": "Tép Sulaweshi",
+          "price": "15000",
+          "desc": "Tép Sula Chân Xanh, hay còn gọi là Sulawesi Blue Leg Poso, là một trong những loại tép dễ nuôi nhất  trong các dòng tép sulawesi, đặc biệt với những người mới bắt đầu. \nTép Sulawesi Blue Leg Poso nổi bật với vẻ đẹp tinh tế . Tuy không sở hữu những gam màu rực rỡ như một số dòng tép sula khác, tép Blue Leg Poso gây ấn tượng bằng những đặc điểm hình thái độc đáo:\nThân: Thân của tép có màu trong suốt, tương tự như một lớp pha lê, mang lại vẻ đẹp lấp lánh và tùy một số các thể chọn lọc sẽ có thân màu xanh nhạt.\nKhả Năng Thích Ứng: Tép Blue Leg Poso với sức sống bền bỉ và khả năng chịu đựng tốt, tép này thường được sử dụng để kiểm tra chất lượng nước trong hồ sula nên không yêu cầu quá cao về điều kiện nước và hệ vi sinh, điều này giúp cho người mới không quá áp lực khi quen với các thông số của nước và kiểm ổn định của nước",
+          "status": 1
         }
         ]
         localStorage.setItem('products', JSON.stringify(products));
