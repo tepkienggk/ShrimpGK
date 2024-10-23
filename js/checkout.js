@@ -1,3 +1,5 @@
+import { currentCode } from "./scriptvongquay";
+
 const PHIVANCHUYEN = 30000;
 let priceFinal = document.getElementById("checkout-cart-price-final");
 // Trang thanh toan
@@ -215,9 +217,9 @@ function closecheckout() {
 
 // Thong tin cac don hang da mua - Xu ly khi nhan nut dat hang
 
-function xulyDathang(product) {
+function xulyDathang(product, code) {
     emailjs.init('zpcH78bZja9Y_Zhiw');
-    let macode = currentCode;
+    currentCode = code;
     let diachinhan = "";
     let hinhthucgiao = "";
     let thoigiangiao = "";
