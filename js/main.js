@@ -109,7 +109,7 @@ function detailProduct(index) {
 
     })
     // Mua ngay san pham
-    dathangngay();
+    // dathangngay();
 }
 
 function animationCart() {
