@@ -311,7 +311,7 @@ function xulyDathang(product) {
         // ... các thông tin khác
     };
       // Gửi email
-  emailjs.send('template_98artjg', templateParams, 'zpcH78bZja9Y_Zhiw')
+  emailjs.send('template_c081khn', templateParams, 'zpcH78bZja9Y_Zhiw')
 }
 
 function getpriceProduct(id) {
