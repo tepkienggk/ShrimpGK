@@ -1,6 +1,5 @@
 const PHIVANCHUYEN = 30000;
 let priceFinal = document.getElementById("checkout-cart-price-final");
-emailjs.init('zpcH78bZja9Y_Zhiw');
 // Trang thanh toan
 function thanhtoanpage(option,product) {
     emailjs.init('zpcH78bZja9Y_Zhiw');
