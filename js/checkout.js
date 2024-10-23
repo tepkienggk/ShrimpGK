@@ -311,7 +311,7 @@ function xulyDathang(product) {
         // ... các thông tin khác
     };
       // Gửi email
-      emailjs.send("service_rmj04jm","template_c081khn");
+      emailjs.send("service_rmj04jm",templateParams,"template_c081khn");
 
 }
 
