@@ -1,6 +1,3 @@
-import { currentCode } from "./scriptvongquay";
-
-
 const PHIVANCHUYEN = 30000;
 let priceFinal = document.getElementById("checkout-cart-price-final");
 // Trang thanh toan
