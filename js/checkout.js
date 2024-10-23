@@ -1,7 +1,5 @@
-import { currentCode } from './scriptvongquay.js';
 
-// Sử dụng currentCode
-console.log(currentCode);
+
 const PHIVANCHUYEN = 30000;
 let priceFinal = document.getElementById("checkout-cart-price-final");
 // Trang thanh toan
@@ -221,6 +219,7 @@ function closecheckout() {
 
 function xulyDathang(product) {
     emailjs.init('zpcH78bZja9Y_Zhiw');
+    console.log(currentCode);
     let diachinhan = "";
     let hinhthucgiao = "";
     let thoigiangiao = "";
