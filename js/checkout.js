@@ -309,6 +309,10 @@ function xulyDathang(product) {
         tong_tien: tongtien,
         sdt_nhan: sdtnhan,
         dia_chi_nhan: diachinhan,
+        ghi_chu: ghichu,
+        hinh_thuc: hinhthucgiao,
+        thoi_gian: thoigiandat,
+        thoi_giao: thoigiangiao,
         // ... các thông tin khác
     };
       // Gửi email
