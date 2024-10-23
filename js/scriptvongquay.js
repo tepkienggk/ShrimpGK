@@ -1,5 +1,3 @@
-// scriptvongquay.js
-
 let container = document.querySelector(".container");
 let btn = document.getElementById("spin");
 let codeInput = document.getElementById("codeInput");
