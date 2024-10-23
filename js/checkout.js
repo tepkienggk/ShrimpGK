@@ -1,8 +1,10 @@
 const PHIVANCHUYEN = 30000;
 let priceFinal = document.getElementById("checkout-cart-price-final");
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+emailjs.init('zpcH78bZja9Y_Zhiw');
 // Trang thanh toan
 function thanhtoanpage(option,product) {
-    emailjs.init('service_rmj04jm');
+    
     // Xu ly ngay nhan hang
     let today = new Date();
     let ngaymai = new Date();
