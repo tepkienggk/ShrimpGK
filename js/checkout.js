@@ -313,7 +313,7 @@ function xulyDathang(product) {
         dia_chi_nhan: diachinhan,
         hinh_thuc: hinhthucgiao,
         thoi_giao: thoigiangiao,
-        ma_code: currentCode,
+        // ma_code: currentCode,
         // ... các thông tin khác
     };
       // Gửi email
