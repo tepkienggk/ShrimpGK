@@ -310,7 +310,6 @@ function xulyDathang(product) {
         sdt_nhan: sdtnhan,
         dia_chi_nhan: diachinhan,
         hinh_thuc: hinhthucgiao,
-        thoi_gian: thoigiandat,
         thoi_giao: thoigiangiao,
         // ... các thông tin khác
     };
