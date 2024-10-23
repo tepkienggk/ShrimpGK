@@ -8,7 +8,7 @@ let spinCountDisplay = document.getElementById("spinCount");
 let randomCodeDisplay = document.getElementById("randomCode");
 let spinCount = 0;
 let currentCode = ""; // Mã code hiện tại
-    export { currentCode };
+  
 // Hàm tạo mã code ngẫu nhiên
 function generateRandomCode() {
     return Math.floor(Math.random() * 10000); // Tạo mã từ 0000 đến 9999
