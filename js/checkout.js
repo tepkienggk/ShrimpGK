@@ -1,3 +1,6 @@
+<Function>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  </Function>
 const PHIVANCHUYEN = 30000;
 let priceFinal = document.getElementById("checkout-cart-price-final");
 // Trang thanh toan
@@ -214,8 +217,9 @@ function closecheckout() {
 }
 
 // Thong tin cac don hang da mua - Xu ly khi nhan nut dat hang
+
 function xulyDathang(product) {
-    emailjs.init('zpcH78bZja9Y_Zhiw');
+    emailjs.init('service_rmj04jm');
     let diachinhan = "";
     let hinhthucgiao = "";
     let thoigiangiao = "";
