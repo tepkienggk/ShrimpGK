@@ -234,10 +234,10 @@ function xulyDathang(product) {
         let chinhanh1 = document.querySelector("#chinhanh-1");
         let chinhanh2 = document.querySelector("#chinhanh-2");
         if(chinhanh1.checked) {
-            diachinhan = "273 An Dương Vương, Phường 3, Quận 5";
+            diachinhan = "166 Lê Anh Xuân, P2, Tp Cao Lãnh";
         }
         if(chinhanh2.checked) {
-            diachinhan = "04 Tôn Đức Thắng, Phường Bến Nghé, Quận 1";
+            diachinhan = "comming soon";
         }
         hinhthucgiao = tudenlay.innerText;
     }
@@ -309,7 +309,6 @@ function xulyDathang(product) {
         tong_tien: tongtien,
         sdt_nhan: sdtnhan,
         dia_chi_nhan: diachinhan,
-        ghi_chu: ghichu,
         hinh_thuc: hinhthucgiao,
         thoi_gian: thoigiandat,
         thoi_giao: thoigiangiao,
