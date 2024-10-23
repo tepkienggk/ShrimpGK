@@ -179,14 +179,14 @@ nutthanhtoan.addEventListener('click', () => {
 })
 
 // Đặt hàng ngay
-// function dathangngay() {
-//     let productInfo = document.getElementById("product-detail-content");
-//     let datHangNgayBtn = productInfo.querySelector(".button-dathangngay");
-//     datHangNgayBtn.onclick = () => {
-//         let fanpageURL = "https://www.facebook.com/profile.php?id=61555712138715&mibextid=LQQJ4d"; // Đường dẫn fanpage
-//         window.location.href = fanpageURL; // Chuyển hướng trang web sang fanpage
-//     }
-// }
+function dathangngay() {
+    let productInfo = document.getElementById("product-detail-content");
+    let datHangNgayBtn = productInfo.querySelector(".button-dathangngay");
+    datHangNgayBtn.onclick = () => {
+        let fanpageURL = "https://www.facebook.com/profile.php?id=61555712138715&mibextid=LQQJ4d"; // Đường dẫn fanpage
+        window.location.href = fanpageURL; // Chuyển hướng trang web sang fanpage
+    }
+}
 // function dathangngay() {
 //     let productInfo = document.getElementById("product-detail-content");
 //     let datHangNgayBtn = productInfo.querySelector(".button-dathangngay");
