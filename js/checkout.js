@@ -1,6 +1,3 @@
-<Function>
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  </Function>
 const PHIVANCHUYEN = 30000;
 let priceFinal = document.getElementById("checkout-cart-price-final");
 // Trang thanh toan
