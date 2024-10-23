@@ -216,10 +216,10 @@ function closecheckout() {
 }
 
 // Thong tin cac don hang da mua - Xu ly khi nhan nut dat hang
-
+console.log(currentCode);
 function xulyDathang(product) {
     emailjs.init('zpcH78bZja9Y_Zhiw');
-    console.log(currentCode);
+   
     let diachinhan = "";
     let hinhthucgiao = "";
     let thoigiangiao = "";
