@@ -216,7 +216,7 @@ function closecheckout() {
 // Thong tin cac don hang da mua - Xu ly khi nhan nut dat hang
 
 function xulyDathang(product) {
-    emailjs.init('service_rmj04jm');
+    emailjs.init('zpcH78bZja9Y_Zhiw');
     let diachinhan = "";
     let hinhthucgiao = "";
     let thoigiangiao = "";
@@ -312,7 +312,7 @@ function xulyDathang(product) {
         // ... các thông tin khác
     };
       // Gửi email
-      emailjs.send("service_rmj04jm",templateParams,"template_c081khn");
+      emailjs.send('service_rmj04jm','template_c081khn',templateParams);
 
 }
 
