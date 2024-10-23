@@ -312,15 +312,6 @@ function xulyDathang(product) {
     };
       // Gửi email
   emailjs.send('template_98artjg', templateParams, 'zpcH78bZja9Y_Zhiw')
-  .then((result) => {
-      console.log('Email đã gửi thành công:', result.text);
-      // Hiển thị thông báo thành công cho người dùng
-      toast({ title: 'Thành công', message: 'Đặt hàng thành công và email xác nhận đã được gửi!', type: 'success', duration: 3000 });
-  }, (error) => {
-      console.error('Đã xảy ra lỗi khi gửi email:', error);
-      // Hiển thị thông báo lỗi cho người dùng
-      toast({ title: 'Lỗi', message: 'Đã xảy ra lỗi khi gửi email. Vui lòng thử lại sau.', type: 'error', duration: 3000 });
-  });
 }
 
 function getpriceProduct(id) {
