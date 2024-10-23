@@ -1,5 +1,3 @@
-import { currentCode } from "./scriptvongquay";
-
 const PHIVANCHUYEN = 30000;
 let priceFinal = document.getElementById("checkout-cart-price-final");
 // Trang thanh toan
@@ -215,11 +213,15 @@ function closecheckout() {
     body.style.overflow = "auto"
 }
 
-// Thong tin cac don hang da mua - Xu ly khi nhan nut dat hang
+// Thong tin cac don hang da mua - Xu ly khi nhan nut dat hang 
+
 
 function xulyDathang(product, code) {
     emailjs.init('zpcH78bZja9Y_Zhiw');
     currentCode = code;
+    
+    console.log("Mã code hiện tại:", currentCode);
+    
     let diachinhan = "";
     let hinhthucgiao = "";
     let thoigiangiao = "";
@@ -291,7 +293,7 @@ function xulyDathang(product, code) {
             thoigiandat: new Date(),
             tongtien:tongtien,
             trangthai: 0,
-            ma_code: macode
+            ma_code: code
         }
     
         order.unshift(donhang);
@@ -315,7 +317,7 @@ function xulyDathang(product, code) {
         dia_chi_nhan: diachinhan,
         hinh_thuc: hinhthucgiao,
         thoi_giao: thoigiangiao,
-        ma_code: currentCode,
+        ma_code: code,
         // ... các thông tin khác
     };
       // Gửi email

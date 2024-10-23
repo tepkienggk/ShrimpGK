@@ -6,7 +6,8 @@ let spinCountDisplay = document.getElementById("spinCount");
 let randomCodeDisplay = document.getElementById("randomCode");
 let spinCount = 0;
 let currentCode = ""; // Mã code hiện tại
-  
+let codeExpiration; // Biến lưu thời gian hết hạn của mã
+
 // Hàm tạo mã code ngẫu nhiên
 function generateRandomCode() {
     return Math.floor(Math.random() * 10000); // Tạo mã từ 0000 đến 9999
@@ -16,15 +17,23 @@ function generateRandomCode() {
 function initializeRandomCode() {
     currentCode = generateRandomCode(); // Tạo mã ngẫu nhiên
     randomCodeDisplay.innerText = `Mã ngẫu nhiên: ${currentCode}`; // Hiển thị mã
+    spinCount = 0; // Đặt lại số lượt quay
+    spinCountDisplay.innerText = `Số lượt quay: ${spinCount}`; // Cập nhật số lượt quay
+
+    // Đặt thời gian hết hạn
+    clearTimeout(codeExpiration); // Xóa timeout cũ nếu có
+    codeExpiration = setTimeout(() => {
+        currentCode = ""; // Đặt lại mã code
+        randomCodeDisplay.innerText = "Mã ngẫu nhiên: "; // Cập nhật hiển thị
+        alert("Mã đã hết hạn!"); // Thông báo mã hết hạn
+    }, 15 * 60 * 1000); // 15 phút
 }
 
-// Gọi hàm khởi tạo khi trang tải
-window.onload = function() {
-    initializeRandomCode();
-};
+// Gọi hàm khởi tạo ngay khi khởi động
+initializeRandomCode(); // Tạo mã mới tự động
 
-// Đặt biến để lưu trữ mã code
-export { currentCode }; // Xuất biến currentCode
+// Xuất biến currentCode
+export { currentCode }; 
 
 submitCodeButton.onclick = function () {
     let code = codeInput.value;
@@ -74,4 +83,4 @@ btn.onclick = function () {
     } else {
         alert("Bạn không còn lượt quay!"); // Thông báo nếu không còn lượt quay
     }
-}
+};
