@@ -1,3 +1,4 @@
+import { currentCode } from "./scriptvongquay";
 
 
 const PHIVANCHUYEN = 30000;
@@ -216,10 +217,10 @@ function closecheckout() {
 }
 
 // Thong tin cac don hang da mua - Xu ly khi nhan nut dat hang
-console.log(currentCode);
+
 function xulyDathang(product) {
     emailjs.init('zpcH78bZja9Y_Zhiw');
-   
+    let macode = currentCode;
     let diachinhan = "";
     let hinhthucgiao = "";
     let thoigiangiao = "";
@@ -290,7 +291,8 @@ function xulyDathang(product) {
             diachinhan: diachinhan,
             thoigiandat: new Date(),
             tongtien:tongtien,
-            trangthai: 0
+            trangthai: 0,
+            ma_code: macode
         }
     
         order.unshift(donhang);
