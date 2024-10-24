@@ -85,6 +85,7 @@ body{
 	cursor: pointer;
 	box-shadow: 0 5px 10px gray;
 	transition: 0.2s all;
+	top: -30px;
 }
 #spin:hover{
 	box-shadow: none;
@@ -97,6 +98,7 @@ body{
 	clip-path: polygon(100% 0,50% 100%, 0 0);
 	margin-top: -350px;
 }
+
 .vongquayne {
     display: flex;
     flex-direction: column;
@@ -107,8 +109,8 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 300px; /* Đặt chiều rộng cho div */
     position: absolute; /* Thay đổi sang absolute để không ảnh hưởng đến các phần tử khác */
-    top: 20px; /* Điều chỉnh khoảng cách từ phía trên */
-    left: 20px; /* Điều chỉnh khoảng cách từ phía trái */
+    top: 	0.5px; /* Điều chỉnh khoảng cách từ phía trên */
+    left: 10px; /* Điều chỉnh khoảng cách từ phía trái */
     z-index: 10; /* Đặt chỉ số z cao hơn để phần tử không bị che khuất */
 }
 
@@ -120,4 +122,12 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+}
+body {
+    background-image: url('../img/6462955423834800640.gif'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+	border-radius: 10px;
 }

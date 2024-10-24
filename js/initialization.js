@@ -670,7 +670,7 @@ function createProduct() {
         },
         {
           "id": 61,
-          "title": "tép ",
+          "title": "banner ",
           "img": "./assets/img/products/1213.jpg",
           "category": "Tép màu",
           "price": 10000,

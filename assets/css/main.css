@@ -2477,4 +2477,4 @@ input[type=number] {
     width: 35px; /* Điều chỉnh lại kích thước chiều rộng khi không hover */
     height: 35px; /* Điều chỉnh lại kích thước chiều cao khi không hover */
     border-radius: 0; /* Reset border-radius về 0 khi không hover */
-}
+}        
