@@ -5,54 +5,38 @@ let submitCodeButton = document.getElementById("submitCode");
 let spinCountDisplay = document.getElementById("spinCount");
 let randomCodeDisplay = document.getElementById("randomCode");
 let spinCount = 0;
-let currentCode = ""; // Mã code hiện tại
-let codeExpiration; // Biến lưu thời gian hết hạn của mã
+let validCodes = ["", "5678", "9012", "3456"]; // Mã code được tạo sẵn
+let usedCodes = []; // Mảng chứa mã đã sử dụng
 
-// Hàm tạo mã code ngẫu nhiên
-function generateRandomCode() {
-    return Math.floor(Math.random() * 10000); // Tạo mã từ 0000 đến 9999
+// Hàm kiểm tra mã code có hợp lệ không
+function isCodeValid(code) {
+    return validCodes.includes(code) && !usedCodes.includes(code);
 }
 
-// Hàm khởi tạo mã code ngẫu nhiên và hiển thị
-function initializeRandomCode() {
-    currentCode = generateRandomCode(); // Tạo mã ngẫu nhiên
-    randomCodeDisplay.innerText = `Mã ngẫu nhiên: ${currentCode}`; // Hiển thị mã
-    spinCount = 0; // Đặt lại số lượt quay
-    spinCountDisplay.innerText = `Số lượt quay: ${spinCount}`; // Cập nhật số lượt quay
-
-    // Đặt thời gian hết hạn
-    clearTimeout(codeExpiration); // Xóa timeout cũ nếu có
-    codeExpiration = setTimeout(() => {
-        currentCode = ""; // Đặt lại mã code
-        randomCodeDisplay.innerText = "Mã ngẫu nhiên: "; // Cập nhật hiển thị
-        alert("Mã đã hết hạn!"); // Thông báo mã hết hạn
-    }, 15 * 60 * 1000); // 15 phút
-}
-
-// Gọi hàm khởi tạo ngay khi khởi động
-initializeRandomCode(); // Tạo mã mới tự động
-
-// Xuất biến currentCode
-export { currentCode }; 
-
+// Hàm xử lý khi người dùng nhập mã code
 submitCodeButton.onclick = function () {
     let code = codeInput.value;
 
-    // Kiểm tra mã code đã được sử dụng chưa
-    if (currentCode && code === currentCode.toString()) {
-        spinCount = 1; // Cộng 1 lượt quay
+    // Kiểm tra mã code có trong danh sách hợp lệ không và chưa được sử dụng
+    if (isCodeValid(code)) {
+        spinCount = 1; // Người dùng có 1 lượt quay
         spinCountDisplay.innerText = `Số lượt quay: ${spinCount}`;
         codeInput.value = ""; // Xóa input
 
-        // Gọi hàm để tạo mã code mới và hiển thị
-        initializeRandomCode(); // Tạo mã mới
-    } else if (currentCode && code !== currentCode.toString()) {
-        alert("Mã này đã được sử dụng hoặc không hợp lệ!"); // Thông báo nếu mã đã sử dụng
+        // Đánh dấu mã code đã sử dụng
+        usedCodes.push(code);
+
+        // Thông báo mã đã hết hiệu lực và không thể sử dụng lại
+        randomCodeDisplay.innerText = `Mã ${code} đã hết hiệu lực sau khi sử dụng!`;
+
+    } else if (usedCodes.includes(code)) {
+        alert("Mã này đã được sử dụng!");
     } else {
-        alert("Mã không hợp lệ!"); // Thông báo mã không hợp lệ
+        alert("Mã không hợp lệ!");
     }
 };
 
+// Xử lý sự kiện quay
 btn.onclick = function () {
     if (spinCount > 0) {
         spinCount--; // Giảm số lượt quay
@@ -76,11 +60,7 @@ btn.onclick = function () {
         }, 2000); // Thời gian phải bằng với thời gian quay (2 giây)
 
         spinCountDisplay.innerText = `Số lượt quay: ${spinCount}`; // Cập nhật số lượt quay
-
-        // Đặt mã code thành không hợp lệ sau khi quay
-        currentCode = ""; // Đặt lại mã code
-        randomCodeDisplay.innerText = "Mã ngẫu nhiên: ";
     } else {
-        alert("Bạn không còn lượt quay!"); // Thông báo nếu không còn lượt quay
+        alert("Bạn không còn lượt quay!");
     }
 };
